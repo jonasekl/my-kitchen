@@ -1,0 +1,12 @@
+{
+    "ipaddress": "10.1.1.119",
+    "name": "chef-lab-03",
+    "description" : "This is a sample node config that sets up a workstation with xmonad and oh-my-zsh",
+    "run_list": ["role[workstation]"],
+    "xmonad" : {
+        "users" : [ {"login" : "jonas"}  ]
+    },
+    "oh-my-zsh" : {
+        "users" : [ {"login" : "jonas"}  ]
+    }
+}

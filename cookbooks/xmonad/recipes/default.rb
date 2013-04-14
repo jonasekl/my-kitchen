@@ -36,8 +36,4 @@ node["xmonad"]["users"].each do |hash|
     end
 end
 
-#script "get_repo" do
-#    interpreter "bash"
-#    "git clone https://github.com/davidbrewer/xmonad-ubuntu-conf.git /home/<%=xmonad["user"] %>/.xmonad"
-#end
 
