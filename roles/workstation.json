@@ -1,0 +1,10 @@
+{
+    "name" : "workstation",
+    "chef_type" :"role",
+    "json_class": "Chef::Role",
+
+    "run_list" : [ 
+        "recipe[oh-my-zsh-solo]",
+        "recipe[xmonad]"
+    ]
+}

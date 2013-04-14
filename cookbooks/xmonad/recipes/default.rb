@@ -26,6 +26,14 @@ node["xmonad"]["users"].each do |hash|
         reference   "master"
         action      :sync
     end
+    script "install_something" do
+        interpreter "bash"
+        user "root"
+        cwd "/tmp"
+        code <<-EOH
+            #{home}/.xmonad/install-xmonad
+          EOH
+    end
 end
 
 #script "get_repo" do
