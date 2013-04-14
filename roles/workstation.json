@@ -5,6 +5,9 @@
 
     "run_list" : [ 
         "recipe[oh-my-zsh-solo]",
-        "recipe[xmonad]"
+        "recipe[xmonad]",
+        "recipe[standard-apps]",
+        "recipe[build-essential]",
+        "recipe[python]"
     ]
 }

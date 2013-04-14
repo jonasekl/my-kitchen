@@ -10,3 +10,12 @@
 [submodule "site-cookbooks/build-essential"]
 	path = site-cookbooks/build-essential
 	url = https://github.com/opscode-cookbooks/build-essential.git
+[submodule "site-cookbooks/application_python"]
+	path = site-cookbooks/application_python
+	url = https://github.com/opscode-cookbooks/application_python.git
+[submodule "site-cookbooks/java"]
+	path = site-cookbooks/java
+	url = https://github.com/opscode-cookbooks/java.git
+[submodule "site-cookbooks/application"]
+	path = site-cookbooks/application
+	url = https://github.com/opscode-cookbooks/application.git
