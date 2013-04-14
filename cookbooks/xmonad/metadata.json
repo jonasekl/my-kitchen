@@ -1,0 +1,37 @@
+{
+  "name": "xmonad",
+  "description": "A fabulous new cookbook",
+  "long_description": "",
+  "maintainer": "Jonas Eklöf",
+  "maintainer_email": "jonas@polymorphic.se",
+  "license": "none",
+  "platforms": {
+    "ubuntu": ">= 0.0.0",
+    "debian": ">= 0.0.0",
+    "centos": ">= 0.0.0",
+    "redhat": ">= 0.0.0",
+    "amazon": ">= 0.0.0",
+    "scientific": ">= 0.0.0",
+    "fedora": ">= 0.0.0"
+  },
+  "dependencies": {
+  },
+  "recommendations": {
+  },
+  "suggestions": {
+  },
+  "conflicting": {
+  },
+  "providing": {
+  },
+  "replacing": {
+  },
+  "attributes": {
+  },
+  "groupings": {
+  },
+  "recipes": {
+    "xmonad": "Setups up xmonad"
+  },
+  "version": "0.0.0"
+}

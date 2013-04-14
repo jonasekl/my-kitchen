@@ -1,0 +1,9 @@
+[submodule "site-cookbooks/python"]
+	path = site-cookbooks/python
+	url = https://github.com/opscode-cookbooks/python.git
+[submodule "site-cookbooks/git"]
+	path = site-cookbooks/git
+	url = https://github.com/opscode-cookbooks/git.git
+[submodule "site-cookbooks/zsh"]
+	path = site-cookbooks/zsh
+	url = https://github.com/opscode-cookbooks/zsh.git
