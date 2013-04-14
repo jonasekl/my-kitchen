@@ -7,3 +7,6 @@
 [submodule "site-cookbooks/zsh"]
 	path = site-cookbooks/zsh
 	url = https://github.com/opscode-cookbooks/zsh.git
+[submodule "site-cookbooks/build-essential"]
+	path = site-cookbooks/build-essential
+	url = https://github.com/opscode-cookbooks/build-essential.git
